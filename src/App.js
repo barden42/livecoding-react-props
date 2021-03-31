@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 
 function App() {
-  const homer = {c
+  const homer = {
     firstName: "Homer",
     lastName: "Simpsons",
     email: "homer@gmail.com",
