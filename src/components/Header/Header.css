@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  background-color: pink;
+  margin-bottom: 100px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
